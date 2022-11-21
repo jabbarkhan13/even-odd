@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     
+    <title>Document</title>
+</head>
+<body>
+    
+<h1>Enter Your Number To Find Even Or Odd</h1>
+
+<label><h3>Enter Your Number !</h3></label>
+<input type="number"  id="inputnum" >
+<button type="submit" onclick="oddeven()">submit</button>
+
+<script>
+function oddeven(){
+
+    var num = (document.getElementById('inputnum')).value;
+
+    if (num % 2 == 0){
+
+        document.write("Your Number Is Odd = "+num) 
+         
+    }
+    
+    else{
+        document.write("Your Number Is Even = "+num)   
+     }
+
+
+
+
+
+}
+</script>
+
+
+
+
+</body>
+</html>
